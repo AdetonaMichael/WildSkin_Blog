@@ -1,0 +1,261 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+
+
+@media (min-width: 990px){
+#hero1 {
+    display: -webkit-inline-box;
+}}
+@media (min-width:1024px){
+    #hero-caption{
+        letter-spacing: 1.1em;
+    }
+}
+@media(max-width: 760px){
+    .both{
+        display: contents;
+    }
+}
+@media(max-width: 860px){
+    .mobile-menu{
+        background-color: aliceblue;
+    }
+}
+@media(min-width:1024px){
+    .svgimage{
+        width:500px;
+        height:500px;
+    }
+}
+@media(min-width:1024px){
+    .becomeus .thetext{
+        height:400px;
+        width:600px;
+    }
+}
+@media(min-width:1024px){
+    .viewimage img{
+        max-width: 50%;
+    }
+}
+@media(max-width:760px){
+    .titleinput{
+        width:300px;
+        justify-items: center;
+        margin:0px;
+    }
+}
+.sidebar_title_1{
+    font-size: 25px;
+    font-family: serif;
+}
+.background_attachment{
+    background-image:url('https://www.pexels.com/photo/three-white-ceramic-pots-with-green-leaf-plants-near-open-notebook-with-click-pen-on-top-796602/');
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+}
+/* start Carousel section */
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+.carousel-item {
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
+}
+ #image2{
+    background-image:url('https://cdn.pixabay.com/photo/2017/09/21/07/47/girl-2771001_960_720.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+ #image1{
+    background-image:url('https://cdn.pixabay.com/photo/2018/01/14/00/05/glass-3081015_960_720.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+ #image3{
+    background-image:url('https://cdn.pixabay.com/photo/2018/02/09/15/42/glass-3141865_960_720.jpg');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+/*end  Carousel section */
+.banner-text{
+    position: relative;
+    bottom: 80px;
+}
+@media(min-width:1024px){
+    .banner-text.banner-text-2{
+      position:relative;
+      bottom:200px;
+    }  
+}
+@media(max-width:760px){
+    .banner-text{
+    margin-top:78px;
+    }
+}
+footer{
+    position:relative;
+    width:100%;
+    height:auto;
+    padding: 50px 100px;
+    background: #111;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family:'poppins', sans-serif;
+
+}
+footer .container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction:row;
+}
+footer .container .sec{
+    margin-right:30px;
+}
+footer .container .sec.aboutus{
+    width:40%;
+}
+footer .container  h2{
+    position:relative;
+    color:#fff;
+    font-weight:500;
+    margin-bottom:15px;
+}
+footer .container h2:before{
+    content:'';
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    width:50px;
+    height:2px;
+    background: #f00;
+}
+footer p{
+    color:#999;
+}
+.sci{
+    margin-top:20px;
+    display:flex;
+}
+.sci li{
+    list-style:none;
+}
+.sci li a{
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    background: #222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:10px;
+    text-decoration:none;
+    border-radius:4px;
+
+}
+.sci li a:hover{
+    background:#f00;
+}
+.sci li a .fa{
+    font-size:20px;
+}
+.quicklinks{
+    position:relative;
+    width:25%;
+}
+.quicklinks ul li{
+    list-style:none;
+}
+.quicklinks ul li a{
+    text-decoration:none;
+    color:#999;
+    margin-bottom:10px;
+    display:inline-block;
+}
+.quicklinks ul li a:hover{
+    color:#fff;
+}
+.contact{
+    width:calc(35% -60px);
+    margin-right:0 !important;
+}
+.contact .info{
+    position:relative;
+}
+.contact .info li{
+    display:flex;
+    margin-bottom:16px;
+}
+.contact .info li span:nth-child(1){
+    color:#fff;
+    font-size:20px;
+    margin-right:10px;
+}
+.contact .info li span{
+    color:#999;
+}
+.contact .info li a {
+    color:#999;
+    text-decoration:none;
+}
+.copyrighttext{
+    width:100%;
+    background:#181818;
+    padding:8px 100px;
+    text-align:center;
+    color:#999;
+    margin-top:45px;
+}
+@media(max-width:991px){
+    footer{
+        padding:40px;
+    }
+    footer .container{
+        flex-direction:column;
+    }
+    footer .container .sec{
+        margin-right:0;
+        margin-bottom: 40px;
+    }
+    footer .container .sec.aboutus, .quicklinks, .contact{
+        width:100%;
+    }
+    .copyrighttext{
+        padding:8px 40px;
+        text-align:center;
+        color:#999;
+    }
+}

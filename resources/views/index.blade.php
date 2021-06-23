@@ -26,7 +26,7 @@
 {{-- Home Page Card --}}
 <div class=" h-3/6 banner-holder md:flex justify-around bg-gray-200 my-10 border-b border-t shadow-lg  border-gray-100 text-center">
     <div class="banner-text text-center justify-center  md:m-5 md:p-5 space-y-10 ">
-        <h1 class="text-4xl font-extrabold text-center md:mt-64">Tell the Story Behind Your Beauty</h1>
+        <h1 class="text-4xl font-extrabold text-center md:mt-64">Tell us the Story Behind Your Beauty</h1>
         <h3 class="text-xl text-gray-700 text-center">Natural Beauty Plus Your Effort Makes you Unique</h3>
         <a href="/blog" class="px-10 py-4 text-center rounded-full bg-yellow-400 text-gray-800 hover:bg-yellow-300 hover:text-gray-900 font-bold relative top-10">Learn More</a>
     </div>

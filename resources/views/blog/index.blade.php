@@ -131,9 +131,20 @@
   <div class="mypagination my-5 font-bolder md:mx-20 ">{{ $posts->links() }}</div>
 </div>
 <div class="sidebar_holder h-min-screen bg-gray-400 py-5 my-10">
-<div class="sidebar-1 bg-white mx-5 md:mx-10 p-5 text-center font-bold ">
-  <p class="sidebar_title_1">This is the sidebar</p>
-</div>
+  <div class="sidebar-1 bg-white mx-5 md:mx-10 p-5 text-center font-bold mb-2">
+    <p class="sidebar_title_1">Video Of The Week</p>
+  
+  </div>
+  <div class="sizecontroller mx-5  md:mx-10 py-5  ">
+    <div class="videowrapper bg-white p-5">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/d1phF7Q7t4M?controls=0&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+  
+    <div class="sidebar-1 bg-white mx-5 md:mx-10 p-5 text-center font-bold mb-2">
+      <p class="sidebar_title_1">Trending</p>
+       
+    </div>
 </div>
   
  

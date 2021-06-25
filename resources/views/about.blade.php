@@ -17,7 +17,7 @@
   
       <div class="p-4 md:p-12 text-center lg:text-left">
           <!-- Image for mobile view-->
-          <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('../images/m3.jpg')"></div>
+          <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style="background-image: url('https://cdn.pixabay.com/photo/2017/07/25/10/36/beauty-2537562_960_720.jpg')"></div>
           
           <h1 class="text-3xl font-bold pt-8 lg:pt-0">CyberLord Roboto</h1>
           <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
@@ -50,7 +50,7 @@
   <!--Img Col-->
   <div class="w-full lg:w-2/5">
       <!-- Big profile image for side bar (desktop) -->
-      <img src="https://cdn.pixabay.com/photo/2018/02/09/15/00/girl-3141766_960_720.jpg" alt="Client's Name" class="rounded-none lg:rounded-lg  shadow-2xl hidden lg:block">
+      <img src="images/me3.jpg" alt="Client's Name" class="rounded-none lg:rounded-lg  shadow-2xl hidden lg:block">
       <!-- My Picture -->
       
   </div>

@@ -272,3 +272,17 @@ footer p{
         color:#999;
     }
 }
+@media(min-width:1024px){
+    .index_image1{
+        border-radius:100%;
+        height:661px;
+        width:600px;
+    }
+}
+@media(min-width:1024px){
+    .bannder-image .index_image2{
+        border-radius:100%;
+        height: 546px;
+        width: 523px;
+    }
+}

@@ -32,7 +32,7 @@
     </div>
 
     <div class="bannder-image">
-      <img class="shadow-lg" style="border-radius:100%;" src="https://cdn.pixabay.com/photo/2015/09/13/03/42/skin-care-937667_960_720.jpg" alt=" model image">
+      <img class="shadow-lg index_image1" src="images/black1.jpeg" alt=" model image">
     </div>
 </div>
 
@@ -47,7 +47,7 @@
     </div>
 
     <div class="bannder-image md:order-first">
-      <img slass="shadow-lg" style="border-radius:100%;" src="https://cdn.pixabay.com/photo/2017/08/03/21/44/face-mask-2578428_960_720.jpg" alt=" model image">
+      <img class="shadow-lg index_image2" src="images/black2.jpeg" alt=" model image">
     </div>
 </div>
 <div class="banner-holder md:flex justify-around pt-5 bg-gray-200 my-10 border-b border-t  border-gray-100 text-center">

@@ -64,76 +64,36 @@
         </div>
     </div>
 </div>
-{{-- My own carousel --}}
-<div class=" py-15 bg-gray-300 box-shadow  shadow-lg rounded mb-5">
-    <h2 class="text-center  text-gray-800 mb-10 font-bold text-4xl">You May Also like</h2>
-    <div class="block justify-around md:flex owl-carousel owl-theme">
-
-        <div class="box2 bg-gray-300 md:mx-5 rounded-lg">
-            <div class="flex items-center justify-end">
-                <img class="shadow-lg h-200 w-200" src="https://cdn.pixabay.com/photo/2017/08/03/21/44/face-mask-2578428_960_720.jpg" alt=" model image">
-            </div>
-                <hr>
-                <div class="relative bg-gray-800 justify-around p-8 text-gray-50 rounded-xl space-y-7">
-                    <div class="h-3 w-10 bg-yellow-400"></div>
-                    <h2  style="font-size:xxx-large;" classs=" text-white text-5xl">25%</h2>
-                        <p class="leading-snug text-gray-400"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
-                        <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
-                </div>
-                <br><br>
-                <hr>
+<!-- component -->
+<!-- Display Container (not part of component) START -->
+<div class="m-10 mx-auto p-16 sm:p-24 lg:p-48 bg-gray-200">
+    
+    <!-- Carousel Body -->
+    <div class="relative rounded-lg block md:flex items-center bg-gray-100 shadow-xl" style="min-height: 19rem;">
+      <div class="relative w-full md:w-2/5 h-full overflow-hidden rounded-t-lg md:rounded-t-none md:rounded-l-lg" style="min-height: 19rem;">
+        <img class="absolute inset-0 w-full h-full object-cover object-center" src="images/sw.png" alt="super woman">
+        <div class="absolute inset-0 w-full h-full bg-indigo-900 opacity-75"></div>
+        <div class="absolute font-extrabold font-serif text-3xl inset-0 w-full h-full flex items-center justify-center fill-current text-white">
+         NEXUS WILD
         </div>
-        <div class="box2 bg-gray-300 md:mx-5 rounded-lg">
-            <div class="flex items-center justify-end">
-                <img class="shadow-lg h-200 w-200" src="https://cdn.pixabay.com/photo/2017/08/03/21/44/face-mask-2578428_960_720.jpg" alt=" model image">
-            </div>
-                <hr>
-                <div class="relative bg-gray-800 justify-around p-8 text-gray-50 rounded-xl space-y-7">
-                    <div class="h-3 w-10 bg-yellow-400"></div>
-                    <h2  style="font-size:xxx-large;" classs=" text-white text-5xl">25%</h2>
-                        <p class="leading-snug text-gray-400"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
-                        <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
-                </div>
-                <br><br>
-                <hr>
+      </div>
+      <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
+        <div class="p-12 md:pr-24 md:pl-16 md:py-12">
+          <p class="text-gray-600"><span class="text-gray-900">Go-Wild</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsum quis velit sit similique ipsam, asperiores assumenda eum quae, aliquid in ex facilis. Dolorum quidem ducimus incidunt ex, odit architecto aliquam doloremque quas tenetur saepe a, ipsum consequatur dignissimos neque!</p>
+          <a class="flex items-baseline mt-3 text-indigo-600 hover:text-indigo-900 focus:text-indigo-900" href="">
+            <span>Learn more about our users</span>
+            <span class="text-xs ml-1">&#x279c;</span>
+          </a>
         </div>
-        <div class="box2 bg-gray-300 md:mx-5 rounded-lg">
-            <div class="flex items-center justify-end">
-                <img class="shadow-lg h-200 w-200" src="https://cdn.pixabay.com/photo/2017/08/03/21/44/face-mask-2578428_960_720.jpg" alt=" model image">
-            </div>
-                <hr>
-                <div class="relative bg-gray-800 justify-around p-8 text-gray-50 rounded-xl space-y-7">
-                    <div class="h-3 w-10 bg-yellow-400"></div>
-                    <h2  style="font-size:xxx-large;" classs=" text-white text-5xl">25%</h2>
-                        <p class="leading-snug text-gray-400"> Mapping Insight Score. Delight your Users and improve your Mapping Skills</p>
-                        <a href="#" class="pt-2 text-yellow-400 font-bold tracking-wide flex">Learn More <i class="fas fa-arrow-right pl-3"></i></a>
-                </div>
-                <br><br>
-                <hr>
-        </div>
+        <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <polygon points="50,0 100,0 50,100 0,100" />
+        </svg>
+      </div>
 
-
-
-      
-
-    </div>
+    
+  </div>
 </div>
-
- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
- 
- <script>
-  $('.owl-carousel').owlCarousel({
-         loop: true,
-         autoplay: true,
-         slideTransition: 'linear',
-         autoplaySpeed: 3000,
-         items: 4
-
-});
-
- </script>
+  <!-- Display Container (not part of component) END -->
 
 {{-- Home Page Card --}}
 

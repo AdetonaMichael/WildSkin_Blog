@@ -142,7 +142,9 @@
     </div>
   
     <div class="sidebar-1 bg-white mx-5 md:mx-10 p-5 text-center font-bold mb-2">
+      <a href="https://www.whogohost.com/host/aff.php?aff=4244&page=sitebuilder" target="_blank"><img src="https://www.whogohost.com/images/affiliates/728x90e.png" /></a>
       <p class="sidebar_title_1">Trending</p>
+
        
     </div>
 </div>

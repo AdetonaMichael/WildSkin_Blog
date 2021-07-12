@@ -29,7 +29,13 @@
     <textarea name="short_description" placeholder="Short Description..." class="py-10 bg-transparent block border-b-2 w-full h-60 text-3xl outline-none" ></textarea>
 
     <textarea name="description" placeholder="Contentent..." class="py-10 bg-transparent block border-b-2 w-full h-60 text-3xl outline-none" ></textarea>
-
+    <script>
+        tinymce.init({
+          selector: 'textarea',
+          plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+          toolbar_mode: 'floating',
+       });
+      </script>
     <div class="bg-gray-lighter pt-15">
         <label class="w-44 flex flex-col items-center px-2 py-3 bg-white rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer">
             <span class="mt-2 text-bold leading-normal font-bold text-xl">

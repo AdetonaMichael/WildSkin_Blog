@@ -10,13 +10,12 @@
     <title>{{ config('app.name', 'WildSkin') }}</title>
 
     <!-- Scripts -->
+    {{-- <script src="https://cdn.tiny.cloud/1/914cbs1n4e1r1683f7ere86yes0kemwesp1tctsdsft2pq6k/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script> --}}
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js\tinymce\js\tinymce\tinymce.min.js') }}"></script>
-   
+    <script src="{{ asset('/js/tinymce/js/tinymce/tinymce.min.js') }}"></script>
     <script>
         tinymce.init({
           selector: 'textarea',
-          plugins: 'a11ychecker advcode casechange formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker emoticons',
           toolbar: 'a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table media',
           toolbar_mode: 'floating',
           tinycomments_mode: 'embedded',

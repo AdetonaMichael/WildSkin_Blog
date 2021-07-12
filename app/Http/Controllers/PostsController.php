@@ -17,9 +17,12 @@ class PostsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        $posts= Post::paginate(3);
-        return view('blog.index', ['posts' => $posts]);
+    {   
+        
+        return view('blog.index')->with('posts', Post::orderBy('updated_at', 'DESC')->paginate(3));
+        // $posts= Post::paginate(3);
+        // return view('blog.index', ['posts' => $posts]);
+
         // return view('blog.index')->with('posts', Post::orderBy('updated_at', 'DESC')->get());
 
     }

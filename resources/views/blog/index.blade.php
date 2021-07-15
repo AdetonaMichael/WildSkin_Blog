@@ -84,7 +84,7 @@
     {{-- Carousel section  --}}
    
     {{-- Content Section --}}
-   <div class="h-min-screen py-5 bg-gray-200  my-10 rounded-2xl">
+   <div class="h-min-screen py-5 bg-gray-200  my-10 rounded-2xl container">
     {{-- Posts --}}
     @foreach($posts as $post)
     <div class="bg-white mx-5 md:mx-10 p-5 my-10 grid grid-cols-1 md:grid-cols-2 ">
@@ -95,11 +95,13 @@
   </div>
   
      <div class="postcontent md:mt-5 space-y-5 items-center md:ml-5 justify-center">
-        <h2 class="text-gray-700 font-bold text-5xl pb-4">    {{ $post->title }}</h2>
-        <span class="text-red-600">
-          <span class="font-bold italic text-blue-600">Written by {{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at) ) }}
+        <p>The category type comes here</p>
+        <h2 class="text-gray-700 text-3xl pb-4 font-bold font-serif">    {{ $post->title }}</h2>
+       
+        {{-- <p class="text-xl text-gray-700 leading-8 font-light">{!! $post->short_description !!}</p> --}}
+        <span class="text-gray-600 flex">
+          <span class="font-bold italic "><u>{{ $post->user->name }}</u></span>, {{ date('jS M Y', strtotime($post->updated_at) ) }}
        </span>
-        <p class="text-xl text-gray-700 leading-8 font-light">{!! $post->short_description !!}</p>
         <div class="items-center flex float-start">
           <a href="/blog/{{ $post->slug}}" class="uppercase bg-blue-500 text-gray-100 rounded text-xs font-extrabold py-2 px-4">
             <span class="flex">Keep Reading<i class="fa fa-arrow-right pl-2"> </i><span>
